@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn coding step by step with Sushanth Coding. Beginner-friendly lessons in HTML, CSS and JavaScript.">
+  <title>Sushanth Coding | Learn to Code</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Sushanth Coding home"><span class="brand-mark">&lt;/&gt;</span><span>Sushanth<span class="brand-accent">Coding</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#learn">Learn</a><a href="#roadmap">Roadmap</a><a href="#playground">Try code</a><a href="#quiz">Quiz</a>
+      <a class="nav-cta" href="#learn">Start learning <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> YOUR CODING JOURNEY STARTS HERE</div>
+        <h1>Turn your ideas<br>into <span class="gradient-text">code.</span></h1>
+        <p class="hero-text">Learn to build websites from scratch. Clear lessons, hands-on practice and small projects — made for beginners.</p>
+        <div class="hero-actions"><a class="button primary" href="#learn">Explore lessons <span>→</span></a><a class="button secondary" href="#playground">Try the code playground</a></div>
+        <div class="hero-note"><span class="avatar-stack"><i>H</i><i>C</i><i>JS</i></span><span>Start with the basics. Build something real.</span></div>
+      </div>
+      <div class="code-window" aria-label="Example HTML code">
+        <div class="window-top"><div class="window-dots"><i></i><i></i><i></i></div><span>my-first-website.html</span><span class="window-status">● LIVE</span></div>
+        <div class="code-lines">
+          <div><b>1</b><span class="pink">&lt;!DOCTYPE html&gt;</span></div>
+          <div><b>2</b><span class="pink">&lt;html&gt;</span></div>
+          <div><b>3</b><span class="pink">&lt;body&gt;</span></div>
+          <div><b>4</b><span class="purple">&nbsp;&nbsp;&lt;h1&gt;</span><span class="green">Hello, world!</span><span class="purple">&lt;/h1&gt;</span></div>
+          <div><b>5</b><span class="purple">&nbsp;&nbsp;&lt;p&gt;</span><span class="green">I made my first website.</span><span class="purple">&lt;/p&gt;</span></div>
+          <div><b>6</b><span class="pink">&lt;/body&gt;</span></div>
+          <div><b>7</b><span class="pink">&lt;/html&gt;</span></div>
+        </div>
+        <div class="code-output"><span class="output-label">BROWSER PREVIEW</span><h2>Hello, world!</h2><p>I made my first website.</p><span class="cursor"></span></div>
+      </div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+
+    <section class="stats-strip">
+      <div><strong>03</strong><span>Core web languages</span></div><div><strong>100%</strong><span>Beginner friendly</span></div><div><strong>∞</strong><span>Things to create</span></div>
+    </section>
+
+    <section class="section" id="learn">
+      <div class="section-heading"><div><div class="eyebrow">THE STARTER KIT</div><h2>Choose your first <span class="gradient-text">superpower.</span></h2></div><p>Every great developer starts with the fundamentals. Learn one step at a time.</p></div>
+      <div class="course-grid">
+        <article class="course-card html-card"><div class="course-icon orange">&lt;/&gt;</div><div class="course-tag">01 · STRUCTURE</div><h3>HTML</h3><p>Build the structure of a webpage with headings, paragraphs, images and links.</p><div class="course-meta"><span>Beginner</span><span>6 lessons</span></div><a href="#htmlLesson" class="text-link">Explore HTML <b>→</b></a></article>
+        <article class="course-card css-card"><div class="course-icon blue">✳</div><div class="course-tag">02 · DESIGN</div><h3>CSS</h3><p>Make your website beautiful with colours, fonts, layouts and responsive design.</p><div class="course-meta"><span>Beginner</span><span>6 lessons</span></div><a href="#cssLesson" class="text-link">Explore CSS <b>→</b></a></article>
+        <article class="course-card js-card"><div class="course-icon yellow">JS</div><div class="course-tag">03 · INTERACTION</div><h3>JavaScript</h3><p>Bring your pages to life with buttons, events, logic and interactive features.</p><div class="course-meta"><span>Beginner</span><span>6 lessons</span></div><a href="#jsLesson" class="text-link">Explore JavaScript <b>→</b></a></article>
+      </div>
+    </section>
+
+    <section class="roadmap-section" id="roadmap">
+      <div class="section-heading"><div><div class="eyebrow">YOUR LEARNING PATH</div><h2>From beginner to <span class="gradient-text">builder.</span></h2></div><p>Follow this simple roadmap. Practise each skill before moving to the next.</p></div>
+      <div class="roadmap">
+        <div class="roadmap-step"><span class="step-number">01</span><div><h3>Learn HTML</h3><p>Create the content and structure of your first webpage.</p></div><span class="step-chip">Start here</span></div>
+        <div class="roadmap-step"><span class="step-number">02</span><div><h3>Style with CSS</h3><p>Add colour, spacing, layouts and mobile-friendly design.</p></div><span class="step-chip">Make it yours</span></div>
+        <div class="roadmap-step"><span class="step-number">03</span><div><h3>Add JavaScript</h3><p>Make buttons, menus and other parts respond to visitors.</p></div><span class="step-chip">Make it work</span></div>
+        <div class="roadmap-step"><span class="step-number">04</span><div><h3>Build a project</h3><p>Combine your skills to make a portfolio or study website.</p></div><span class="step-chip">Show it off</span></div>
+      </div>
+    </section>
+
+    <section class="section lesson-section">
+      <div class="section-heading"><div><div class="eyebrow">QUICK LESSONS</div><h2>Your first steps in <span class="gradient-text">coding.</span></h2></div><p>Try these tiny examples. Change the code and see what each part does.</p></div>
+      <div class="lesson-grid">
+        <article class="lesson-card" id="htmlLesson"><div class="lesson-top"><span class="lesson-pill orange-pill">HTML</span><span>LESSON 01</span></div><h3>Make a heading</h3><p>HTML uses tags to tell the browser what each part of a page is.</p><pre><code>&lt;h1&gt;Hello, Sushanth!&lt;/h1&gt;</code></pre><div class="lesson-result"><small>RESULT</small><h2>Hello, Sushanth!</h2></div></article>
+        <article class="lesson-card" id="cssLesson"><div class="lesson-top"><span class="lesson-pill blue-pill">CSS</span><span>LESSON 01</span></div><h3>Change a colour</h3><p>CSS controls how HTML elements look on the screen.</p><pre><code>h1 {
+  color: royalblue;
+}</code></pre><div class="lesson-result"><small>RESULT</small><h2 class="blue-result">Hello, blue world!</h2></div></article>
+        <article class="lesson-card" id="jsLesson"><div class="lesson-top"><span class="lesson-pill yellow-pill">JAVASCRIPT</span><span>LESSON 01</span></div><h3>Show a message</h3><p>JavaScript lets you make your website respond to actions.</p><pre><code>alert("You did it!");</code></pre><div class="lesson-result"><small>TRY IT</small><button class="mini-button" id="helloButton">Click me</button><span id="helloMessage" class="hello-message" aria-live="polite"></span></div></article>
+      </div>
+    </section>
+
+    <section class="playground-section" id="playground">
+      <div class="playground-copy"><div class="eyebrow">HANDS-ON PRACTICE</div><h2>Write code.<br><span class="gradient-text">See it happen.</span></h2><p>Try changing the HTML below. Press Run to see your webpage update instantly.</p><div class="playground-tip"><span>✦</span><span>Tip: Try changing “Hello, world!” to your own name.</span></div></div>
+      <div class="playground">
+        <div class="editor-top"><span><i></i> index.html</span><button id="resetCode">Reset</button></div>
+        <label class="sr-only" for="codeInput">HTML code editor</label>
+        <textarea id="codeInput" spellcheck="false" autocapitalize="off"><h1>Hello, world!</h1>
+<p>I am learning to code at Sushanth Coding.</p>
+<button>My first button</button></textarea>
+        <div class="editor-actions"><span>HTML · LIVE PREVIEW</span><button class="button primary run-button" id="runCode">▶ Run code</button></div>
+        <div class="preview-wrap"><div class="preview-label">PREVIEW</div><iframe id="codePreview" title="Your code preview" sandbox="allow-scripts"></iframe></div>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="quiz-card"><div class="quiz-intro"><div class="eyebrow">CHECK YOUR KNOWLEDGE</div><h2>Ready for a<br><span class="gradient-text">quick challenge?</span></h2><p>One question to test what you've learned. You can try again anytime.</p></div><div class="quiz-question"><span class="question-count">QUICK QUIZ · 01 / 01</span><h3>Which language is used to structure a webpage?</h3><div class="quiz-options"><button class="quiz-option" data-answer="css">CSS</button><button class="quiz-option" data-answer="html">HTML</button><button class="quiz-option" data-answer="js">JavaScript</button></div><p id="quizFeedback" aria-live="polite"></p><button id="retryQuiz" class="retry-button">Try again ↻</button></div></div>
+    </section>
+
+    <section class="final-cta"><div class="eyebrow">KEEP BUILDING</div><h2>Every expert was once<br>a <span class="gradient-text">beginner.</span></h2><p>Open your editor, write your first line and keep experimenting. Your next big idea could start today.</p><a class="button primary" href="#playground">Create something now <span>→</span></a></section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>Sushanth<span class="brand-accent">Coding</span></span></a><p>Made for curious minds. Keep learning, keep creating.</p><span class="copyright">© <span id="year"></span> Sushanth Coding</span></footer>
+</body>
+</html>
